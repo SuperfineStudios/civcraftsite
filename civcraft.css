@@ -143,6 +143,7 @@ Place All Custom Classes in this section
    z-index: 1000;
    height: 90px;
    width: auto;
+   
 }
 
 @media (min-width: 768px)
@@ -172,6 +173,11 @@ Place All Custom Classes in this section
 	   z-index: 1000;
 	   height: auto;
 	   width: auto;
+    -webkit-transition: opacity ease-in 1s;
+    -moz-transition: opacity ease-in 1s;
+    -ms-transition: opacity ease-in 1s;
+    -o-transition: opacity ease-in 1s;
+    transition: opacity ease-in 1s;
 	}
 }
 
@@ -233,10 +239,13 @@ Place All Custom Classes in this section
   /* Navbar positioning foo */
   .navbar-wrapper {
     margin-top: 20px;
+	top:400px;
+	
   }
   /* The navbar becomes detached from the top, so we round the corners */
   .navbar-wrapper .navbar {
     border-radius: 4px;
+
   }
 
   /* Bump up size of carousel content */

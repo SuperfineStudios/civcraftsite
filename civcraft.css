@@ -12,10 +12,6 @@ body {
   color: #5a5a5a;
 }
 
-.static-img {
-no-repeat fixed center center
-
-}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -39,23 +35,49 @@ Place All Custom Classes in this section
 
 /* Defines logo and positioning per screen size */
 
-.civlogo {
-position: absolute;
-z-index: 5;
-margin:0 auto;
-left:23%;
-width: auto;
-height: 90px;
 
+.civbox span{
+
+  display: block;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 5;
+  background: url(assets/img/logo.png) no-repeat center top;
+  background-size: auto 100px;
 }
 
 @media (min-width: 768px) {
+.civbox span{
 
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 5;
+  background: url(assets/img/logo.png) no-repeat center top;
+  background-size: auto 150px;
+}
 
 }
 
 @media (min-width: 992px) {
+.civbox span{
 
+  display: block;
+  position: absolute;
+  top: 75px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 5;
+  background: url(assets/img/logo.png) no-repeat center top;
+  background-size: auto auto;
+}
 }
 
 
@@ -107,6 +129,52 @@ height: 90px;
     opacity:1;
     z-index:1;
 }
+
+
+/* Logo Overlay */
+
+.carousel {
+   min-height: 200px;
+}
+.carousel .layer {
+   position: absolute;
+}
+.carousel .civlogo {
+   z-index: 1000;
+   height: 90px;
+   width: auto;
+}
+
+@media (min-width: 768px)
+{
+	.carousel {
+	   min-height: 300px;
+	}
+	.carousel .layer {
+	   position: absolute;
+	}
+	.carousel .civlogo {
+	   z-index: 1000;
+	   height: 150px;
+	   width: auto;
+	}
+}
+
+@media (min-width: 992px)
+{
+	.carousel {
+	   min-height: 500px;
+	}
+	.carousel .layer {
+	   position: absolute;
+	}
+	.carousel .civlogo {
+	   z-index: 1000;
+	   height: auto;
+	   width: auto;
+	}
+}
+
 
 
 
@@ -222,10 +290,13 @@ height: 90px;
 }
 
 	.civlogo {
-	position: absolute;
+	position: fixed;
 	z-index: 5;
 	margin:0 auto;
-	left:33.33333%;
+	left: 34.3%;
+	top: 5%;
+	height: 261px;
+	width: auto;
 	}
 
 }

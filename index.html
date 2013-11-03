@@ -33,6 +33,48 @@ Image Credits: /r/CivcraftRenders
 		$('.carousel').carousel({interval: 8000});
 	  });
 	</script>
+	
+	<!-- 
+	Script for Logo/Carousel Overlay Responsiveness
+	=== THANKS TO LUKE SCHREUR for this beauty: http://www.lukeschreur.com/posts/custom-responsive-bootstrap-carousel ====
+	-->
+	<script type="text/javascript">
+		function onResize() {
+		   var slide = {
+			  width: 708,
+			  height: 444
+		   }
+		 
+		   var original = {
+			  width: 780,
+			  height: 721,
+		   }
+		 
+		   var current = {
+			  width: $(".carousel img.display").width(),
+			  height: $(".carousel img.display").height()
+		   } 
+		 
+		   var s = 100 / original.width * current.width;
+		 
+		   $(".carousel-inner .item").each( function() {
+			  $(this).width( slide.width / 100 * s );
+			  $(this).height( slide.height / 100 * s );
+		 
+			  $(this).css('margin-top', 37 / 100 * s);
+			  $(this).css('margin-left', 38 / 100 * s);
+		   } );
+		 
+		   $(".carousel").css("min-height", current.height);
+			  $(".carousel-inner").css("height", current.height);
+		   }
+		}
+		 
+		$(document).ready( function() {
+		   $(window).resize( onResize );
+		}
+	
+	</script>
 
     <!-- Custom styles for this template -->
     <link href="civcraft.css" rel="stylesheet">
@@ -40,14 +82,16 @@ Image Credits: /r/CivcraftRenders
 <!-- NAVBAR
 ================================================== -->
   <body>
-
+<!--
 	<div class="container">
 		<div class="row-fluid">
 			<div class="span8 offset5">
 				<img src="assets/img/logo.png" class="civlogo"> </img>
 			</div>
 		</div>
-	</div>
+	</div>-->
+
+
 
     <div class="navbar-wrapper">
       <div class="container">
@@ -98,6 +142,7 @@ Image Credits: /r/CivcraftRenders
     <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide">
+		<img src="assets/img/logo.png" class="layer display civlogo" />
       <!-- Indicators 
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -106,29 +151,27 @@ Image Credits: /r/CivcraftRenders
       </ol>-->
       <div class="carousel-inner">
         <div class="item active">
-          <img src="assets/img/render_1.jpg" alt="First slide" class="img-responsive">
+          <img src="assets/img/render_1.jpg" alt="First slide" class="img-responsive"> 
           
         </div>
         <div class="item">
           <img src="assets/img/render_2.jpg"  alt="Second slide" class="img-responsive">
-          <div class="container">
-           
-          </div>
+
         </div>
         <div class="item">
-          <img src="assets/img/render_3.jpg" alt="Third slide" class="img-responsive">
-          <div class="container">
-            
-          </div>
+          <img src="assets/img/render_3.jpg" alt="Third slide" class="img-responsive"> 
+
         </div>
       </div>
 
 	  <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <!-- <span class="glyphicon glyphicon-chevron-left"></span> --> </a>
       <a class="right carousel-control" href="#myCarousel" data-slide="next"> <!-- <span class="glyphicon glyphicon-chevron-right"></span> --> </a> 
 
-    </div><!-- /.carousel -->
+    </div><!-- /.carousel 
 
-
+	<div class="civbox">
+		<span> </span>
+	</div>	-->
 
     <!-- Marketing messaging and featurettes
     ================================================== -->

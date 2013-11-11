@@ -8,7 +8,7 @@ This website is built using [Bootstrap v3.0.0](http://getbootstrap.com). Please 
 
 * Youtube video still needs to be embedded and navbar needs designing. [This](http://imgur.com/LxDDdsB) is what I'm going for in terms of the look.
 
-* Still need to finish centering the logo at the mobile screen size, as well as ensuring the menu doesn't overlap the header.
+* Still need to finish centering the logo at the mobile screen size, as well as ensuring the menu doesn't overlap the header in mobile mode (overlap is intentional for screen sizes larger than mobile).
 
 # Design Principles
 

@@ -18,7 +18,7 @@ This website is built using [Bootstrap v3.0.0](http://getbootstrap.com). Please 
 
 * Do not remove CSS rules. **Comment them out**. While GIT allows for versioning, it's much easier to enable/disable rules using comments.
 
-* The header image must be 1920px x 500px, and lens blurred. It should have sufficient [bokeh](bit.ly/1bjT9UE) because that just makes things look pretty.
+* The header image must be 1920px x 500px, and lens blurred. Make sure it has creatively applied [bokeh](http://en.wikipedia.org/wiki/Bokeh) if possible because that just makes things look gosh darn pretty.
 
 * This isn't necessary, and entirely up to you: I prefer to use CSS3 over JQuery wherever applicable.
 

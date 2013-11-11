@@ -1,3 +1,33 @@
+# Civcraft's Website
+
+This website is built using [Bootstrap v3.0.0](http://getbootstrap.com). Please acquaint yourself with the framework before getting started. It's very easy to pick up and play around with, and chances are you won't need to create any new CSS rules for most standard div tags. 
+
+# Design Status
+
+* The design isn't complete yet, but the site is open to be developed into something more dynamic by fellow /r/Civcraft community members.  I will resume designing the site Monday, November 17th, 2013.
+
+* Youtube video still needs to be embedded and navbar needs designing. [This](http://imgur.com/LxDDdsB) is what I'm going for in terms of the look.
+
+* Still need to finish centering the logo at the mobile screen size, as well as ensuring the menu doesn't overlap the header.
+
+# Design Principles
+
+* This website is responsive. Ensure whatever you add applies for all designated screen sizes, unless if common sense dictates that it's ridiculous to have it for a particular screen size. 
+
+* When editing CSS, edit *bootstrap.css* only if absolutely necessary. Otherwise, place additional CSS rules into *civcraft.css*. 
+
+* Do not remove CSS rules. **Comment them out**. While GIT allows for versioning, it's much easier to enable/disable rules using comments.
+
+* The header image must be 1920px x 500px, and lens blurred. It should have sufficient [bokeh](bit.ly/1bjT9UE) because that just makes things look pretty.
+
+* This isn't necessary, and entirely up to you: I prefer to use CSS3 over JQuery wherever applicable.
+
+Cheers,
+
+sashimii
+
+---------------------------------
+
 # [Bootstrap v3.0.0](http://getbootstrap.com) [![Build Status](https://secure.travis-ci.org/twbs/bootstrap.png)](http://travis-ci.org/twbs/bootstrap)
 
 Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development, created and maintained by [Mark Otto](http://twitter.com/mdo) and [Jacob Thornton](http://twitter.com/fat).

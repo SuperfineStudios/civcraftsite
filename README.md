@@ -4,7 +4,7 @@ This website is built using [Bootstrap v3.0.0](http://getbootstrap.com). Please 
 
 # Design Status
 
-* The design isn't complete yet, but the site is open to be developed into something more dynamic by fellow /r/Civcraft community members.  I will resume designing the site Monday, November 17th, 2013.
+* The design isn't complete yet, but the site is open to be developed into something more dynamic by fellow /r/Civcraft community members.  I will resume designing the site Monday, November 17th, 2013. Got an otherwise large workload this week.
 
 * Youtube video still needs to be embedded and navbar needs designing. [This](http://imgur.com/LxDDdsB) is what I'm going for in terms of the look.
 
@@ -12,7 +12,7 @@ This website is built using [Bootstrap v3.0.0](http://getbootstrap.com). Please 
 
 * Credits for who made the original renders/screenshots to be added in the footer.
 
-* Website looks terrible in IE, but that's a fact of life we're gonna have to deal with and fix >:(
+* Website looks terrible in IE, [but at least Microsoft has a totemo kawaii anime OAV for it](http://www.youtube.com/watch?v=BHTUlF7NA2o). Anywho, this will have to be fixed.
 
 # Design Principles
 

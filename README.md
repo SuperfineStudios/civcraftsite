@@ -12,6 +12,8 @@ This website is built using [Bootstrap v3.0.0](http://getbootstrap.com). Please 
 
 * Credits for who made the original renders/screenshots to be added in the footer.
 
+* Website looks terrible in IE, but that's a fact of life we're gonna have to deal with and fix >:(
+
 # Design Principles
 
 * This website is responsive. Ensure whatever you add applies for all designated screen sizes, unless if common sense dictates that it's ridiculous to have it for a particular screen size. 

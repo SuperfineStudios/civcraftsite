@@ -10,6 +10,8 @@ This website is built using [Bootstrap v3.0.0](http://getbootstrap.com). Please 
 
 * Still need to finish centering the logo at the mobile screen size, as well as ensuring the menu doesn't overlap the header in mobile mode (overlap is intentional for screen sizes larger than mobile).
 
+* Credits for who made the original renders/screenshots to be added in the footer.
+
 # Design Principles
 
 * This website is responsive. Ensure whatever you add applies for all designated screen sizes, unless if common sense dictates that it's ridiculous to have it for a particular screen size. 

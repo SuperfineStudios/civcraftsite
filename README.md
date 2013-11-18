@@ -6,7 +6,7 @@ This website is built using [Bootstrap v3.0.0](http://getbootstrap.com). Please 
 
 * The design isn't complete yet, but the site is open and encouraged to be developed into something more dynamic by fellow /r/Civcraft community members.  I will resume designing the site Monday, November 17th, 2013. Got an otherwise large workload this week.
 
-* Youtube video still needs to be embedded and navbar needs designing. [This](http://imgur.com/LxDDdsB) is what I'm going for in terms of the look.
+* Youtube video still needs to be embedded and navbar needs designing. [This](http://imgur.com/LxDDdsB) is what I'm going for in terms of the look. A preview site is hosted at http://prev.civcraft.vg/
 
 * Still need to finish centering the logo at the mobile screen size, as well as ensuring the menu doesn't overlap the header in mobile mode (overlap is intentional for screen sizes larger than mobile).
 
